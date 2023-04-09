@@ -1,19 +1,23 @@
 styles.css 
 body {
   background-color: black;
-  color: white;
+  color: green;
   font-family: monospace;
   font-size: 24px;
   line-height: 1.5;
 }
 
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+  box-sizing: border-box;
+}
 
-
-@media (min-width: 768px) {
-  body {
-    border: 50px solid transparent;
-    animation: border-color 10s linear infinite;
-  }
+.content {
+  border: 2px solid white;
+  padding: 16px;
+  animation: border-color 10s linear infinite;
 }
 
 @keyframes border-color {
@@ -28,7 +32,10 @@ body {
   }
 }
 
-
-
-
+@media (max-width: 767px) {
+  .content {
+    border: none;
+    padding: 0;
+  }
+}
 
