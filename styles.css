@@ -1,19 +1,24 @@
 body {
   background-color: black;
-  color: #00ff00;
+  color: white;
   font-family: monospace;
   font-size: 24px;
   line-height: 1.5;
+  text-align: center;
 }
 
-.border {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  border: 50px solid transparent;
-  animation: border-color 10s linear infinite;
+.container {
+  padding: 50px;
+}
+
+@media (min-width: 768px) {
+  body {
+    border: 50px solid transparent;
+    animation: border-color 10s linear infinite;
+  }
+  .container {
+    padding: 100px;
+  }
 }
 
 @keyframes border-color {
