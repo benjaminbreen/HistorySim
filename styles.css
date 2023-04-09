@@ -6,7 +6,7 @@ body {
   line-height: 1.5;
   text-align: center;
   padding: 50px;
-  border: 50px solid red;
+  border: 20px solid red;
   animation: color-shift 40s linear infinite;
 }
 
@@ -30,7 +30,7 @@ body {
 
 @media (min-width: 768px) {
   body {
-    border: 50px solid transparent;
+    border: 40px solid transparent;
     animation-name: color-shift;
     animation-duration: 10s;
     animation-iteration-count: infinite;
