@@ -1,3 +1,4 @@
+
 body {
   background-color: black;
   color: white;
@@ -5,31 +6,26 @@ body {
   font-size: 24px;
   line-height: 1.5;
   text-align: center;
-   padding: 50px;
+  padding: 50px;
+  border: 50px solid red;
+  animation: color-shift 20s linear infinite;
 }
 
-.container {
-  padding: 100px;
-}
-
-@media (min-width: 768px) {
-  body {
-    border: 20px solid transparent;
-    animation: border-color 4s linear infinite;
-  }
-  .container {
-    padding: 100px;
-  }
-}
-
-@keyframes border-color {
+@keyframes color-shift {
   0% {
-    border-image: linear-gradient(to bottom right, red, orange, purple) 1;
+    border-color: red;
+  }
+  25% {
+    border-color: orange;
   }
   50% {
-    border-image: linear-gradient(to bottom right, orange, purple, red) 1;
+    border-color: purple;
+  }
+  75% {
+    border-color: orange;
   }
   100% {
-    border-image: linear-gradient(to bottom right, purple, red, orange) 1;
+    border-color: red;
   }
 }
+
