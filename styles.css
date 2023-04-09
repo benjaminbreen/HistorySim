@@ -2,12 +2,12 @@ body {
   background-color: black;
   color: white;
   font-family: monospace;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 1.5;
   text-align: center;
-  padding: 50px;
-  border: 20px solid red;
-  animation: color-shift 40s linear infinite;
+  padding: 80px;
+  border: 15px solid red;
+  animation: color-shift 60s linear infinite;
 }
 
 @keyframes color-shift {
@@ -30,9 +30,9 @@ body {
 
 @media (min-width: 768px) {
   body {
-    border: 40px solid transparent;
+    border: 15px solid transparent;
     animation-name: color-shift;
-    animation-duration: 10s;
+    animation-duration: 50s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: linear;
