@@ -2,19 +2,24 @@ styles.css
 body {
   background-color: black;
   color: white;
-  font-family: monospace;
-  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
   line-height: 1.5;
 }
 
 .terminal {
   padding: 16px;
   border: 2px solid white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
 }
 
 .prompt {
   color: green;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
 }
+
 
 @media (min-width: 768px) {
   body {
