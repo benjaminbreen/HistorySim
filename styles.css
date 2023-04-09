@@ -10,6 +10,7 @@ body {
   padding: 80px;
   border: 15px solid red;
   animation: color-shift 60s linear infinite;
+  
 }
 
 @keyframes color-shift {
@@ -28,6 +29,10 @@ body {
   100% {
     border-color: red;
   }
+}
+
+a:visited {
+  color: lime;
 }
 
 @media (min-width: 768px) {
