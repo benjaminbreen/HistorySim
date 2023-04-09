@@ -1,4 +1,3 @@
-
 body {
   background-color: black;
   color: white;
@@ -8,7 +7,7 @@ body {
   text-align: center;
   padding: 50px;
   border: 50px solid red;
-  animation: color-shift 20s linear infinite;
+  animation: color-shift 40s linear infinite;
 }
 
 @keyframes color-shift {
@@ -29,3 +28,13 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+  body {
+    border: 50px solid transparent;
+    animation-name: color-shift;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+}
