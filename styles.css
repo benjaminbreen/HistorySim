@@ -11,14 +11,14 @@ body {
   padding: 80px;
   border: 15px solid transparent;
   animation-name: border-color;
-  animation-duration: 50s;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
 }
 
 .content {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 h2, h3 {
@@ -35,13 +35,13 @@ p {
 
 .colophon {
   text-align: center;
-  margin-top: -40px;
+  margin-top: -60px;
 }
 
 img.colophon {
   display: inline-block;
   margin: 0 auto;
-  max-width: 10%;
+  max-width: 20%;
   vertical-align: middle;
   margin-bottom: -20px;
 }
