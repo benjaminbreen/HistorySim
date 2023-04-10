@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body {
   background-color: #222;
@@ -9,28 +9,41 @@ body {
   line-height: 1.5;
   text-align: left;
   padding: 80px;
-  animation: border-color 60s linear infinite;
-  margin: 0;
+  border: 15px solid transparent;
+  animation-name: border-color;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
 }
 
-h4 {
-  font-family: 'Raleway', sans-serif;
+.content {
+  margin-bottom: 80px;
+}
+
+h2, h3 {
+  font-family: 'VT323', monospace;
   text-align: center;
   font-size: 30px;
   margin-top: 0;
 }
 
-.content {
-  margin-bottom: 2px;
+p {
+  font-family: 'VT323', monospace;
+  margin-top: 10px;
 }
 
 .colophon {
   text-align: center;
+  margin-top: -40px;
 }
 
-.colophon img {
+img.colophon {
+  display: inline-block;
+  margin: 0 auto;
   max-width: 10%;
   vertical-align: middle;
+  margin-bottom: -20px;
 }
 
 @keyframes border-color {
@@ -61,12 +74,6 @@ a:visited {
 
 @media (min-width: 768px) {
   body {
-    border: 35px solid transparent;
-    animation-name: border-color;
-    animation-duration: 50s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: linear;
-    padding: 80px 80px 100px;
+    padding: 120px;
   }
 }
