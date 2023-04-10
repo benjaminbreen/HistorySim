@@ -35,7 +35,7 @@ p {
 
 .colophon {
   text-align: center;
-  margin-top: -60px;
+  margin-top: -20px;
 }
 
 img.colophon {
@@ -43,7 +43,7 @@ img.colophon {
   margin: 0 auto;
   max-width: 20%;
   vertical-align: middle;
-  margin-bottom: -20px;
+  margin-bottom: -60px;
 }
 
 @keyframes border-color {
