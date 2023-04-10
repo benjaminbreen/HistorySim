@@ -6,7 +6,7 @@ body {
   font-family: 'Martian Mono Display', monospace;
   font-size: 28px;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
   padding: 80px;
   border: 15px solid red;
   animation: color-shift 60s linear infinite;
@@ -15,24 +15,28 @@ body {
 
 @keyframes color-shift {
   0% {
-    border-color: red;
+    border-color: lightgreen;
   }
   25% {
-    border-color: orange;
+    border-color: lightsalmon;
   }
   50% {
     border-color: purple;
   }
   75% {
-    border-color: orange;
+    border-color: orangered;
   }
   100% {
-    border-color: red;
+    border-color: blue;
   }
 }
 
+a:link {
+  color: lightgreen;
+}
+
 a:visited {
-  color: lime;
+  color: limegreen;
 }
 
 @media (min-width: 768px) {
