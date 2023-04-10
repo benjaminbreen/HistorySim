@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
 
 body {
-  background-color: darkgray;
+  background-color: black;
   color: white;
   font-family: 'Martian Mono Display', monospace;
   font-size: 28px;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
   padding: 80px;
   border: 15px solid red;
   animation: border-color 60s linear infinite;
@@ -18,7 +18,7 @@ body {
 }
 
 .banner img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
 
