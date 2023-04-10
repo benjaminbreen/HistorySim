@@ -19,7 +19,7 @@ body {
 h2, h3 {
   font-family: 'VT323', monospace;
   text-align: center;
-   font-size: 30px;
+  font-size: 30px;
 }
 
 img.colophon {
@@ -39,4 +39,29 @@ img.colophon {
   50% {
     border-color: purple;
   }
-  75
+  75% {
+    border-color: orange;
+  }
+  100% {
+    border-color: red;
+  }
+}
+
+a:link {
+  color: lightgreen;
+}
+
+a:visited {
+  color: limegreen;
+}
+
+@media (min-width: 768px) {
+  body {
+    border: 15px solid transparent;
+    animation-name: border-color;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+}
