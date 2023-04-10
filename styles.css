@@ -9,7 +9,7 @@ body {
   line-height: 1.5;
   text-align: left;
   padding: 80px;
-  border: 15px solid transparent;
+  border: 35px solid transparent;
   animation-name: border-color;
   border-radius: 10px;
   animation-duration: 30s;
