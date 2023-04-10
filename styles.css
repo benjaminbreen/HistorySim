@@ -11,6 +11,7 @@ body {
   padding: 80px;
   border: 15px solid transparent;
   animation-name: border-color;
+  border-radius: 10px;
   animation-duration: 30s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
