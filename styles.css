@@ -13,21 +13,16 @@ body {
   
 }
 
-@keyframes color-shift {
+
+@keyframes border-color {
   0% {
-    border-color: lightgreen;
-  }
-  25% {
-    border-color: lightsalmon;
+    border-image: linear-gradient(to bottom right, red, lightsalmon, purple) 1;
   }
   50% {
-    border-color: purple;
-  }
-  75% {
-    border-color: orangered;
+    border-image: linear-gradient(to bottom right, orange, purple, red) 1;
   }
   100% {
-    border-color: blue;
+    border-image: linear-gradient(to bottom right, purple, red, lightsalmon) 1;
   }
 }
 
@@ -49,3 +44,10 @@ a:visited {
     animation-timing-function: linear;
   }
 }
+
+
+
+
+
+
+
