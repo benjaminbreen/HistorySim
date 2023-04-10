@@ -21,12 +21,14 @@ h4 {
 }
 
 .content {
-  margin-bottom: 50px;
+  margin-bottom: 2px;
 }
 
-img.colophon {
-  display: block;
-  margin: 0 auto;
+.colophon {
+  text-align: center;
+}
+
+.colophon img {
   max-width: 10%;
   vertical-align: middle;
 }
@@ -65,6 +67,6 @@ a:visited {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: linear;
-    padding: 80px 80px 150px;
+    padding: 80px 80px 100px;
   }
 }
