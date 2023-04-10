@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body {
   background-color: black;
   color: white;
-  font-family: 'Martian Mono Display', monospace;
+  font-family: 'Raleway', sans-serif;
   font-size: 28px;
   line-height: 1.5;
   text-align: left;
