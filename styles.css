@@ -12,6 +12,17 @@ body {
   animation: border-color 60s linear infinite;
 }
 
+.banner {
+  text-align: center;
+  padding: 50px;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 @keyframes border-color {
   0% {
     border-color: red;
