@@ -42,9 +42,8 @@ p {
 img.colophon {
   display: inline-block;
   margin: 0 auto;
-  max-width: 20%;
+  max-width: 14%;
   vertical-align: middle;
-  margin-bottom: -60px;
 }
 
 @keyframes border-color {
